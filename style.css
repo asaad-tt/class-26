@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    border-top: 4px solid #0200FD;
+}
+.fixed-width{
+    width: 1070px;
+    margin: auto;
+}
+.top-header{
+    margin: 30px 0;
+
+  
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.right-header{
+    float: left;
+    width: 30%;
+    cursor: pointer;
+}
+.right-header h1{
+    color: #0604BF;
+}
+.primary-menu{
+    float: right;
+    width: 70%;
+    
+}
+.primary-menu ul{
+    text-align: center;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: .5s;
+}
+.primary-menu ul li a:hover{
+    background-color: teal;
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+
+/* slider section  */
+
+.slider{
+    background-image: url(./images/you-x-ventures-vbxyFxlgpjM-unsplash.jpg);
+    padding: 200px 0;
+    background-size: cover;
+}
+.slider-text{
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.slider-text h3 {
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.slider-text h1{
+    font-size: 47px;
+    text-transform: uppercase;
+}
+.slider-btn{
+    background: #4272D8;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+.slider-btn::before{
+    content: "";
+    background: tomato;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .5s;
+    z-index: -1;
+
+}
+.slider-btn:hover::before{
+
+    width: 100%;
+  
+}
+
+/* video section  */
+
+.video-section{
+    margin: 40px 0;
+}
+.video-part{
+    width: 50%;
+    float: left;
+}
+.article-part{
+    width: 50%;
+    float: right;
+}
+.article-text p{
+    padding: 20px 0;
+}
+
+/* contact section  */
+.contact{
+    background-color: #F5F5F5;
+    padding-bottom: 40px;
+}
+.contact-portion{
+    margin-top: 30px;
+}
+.contact-text{
+    width: 50%;
+    float: left;
+}
+.bold{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.contact-form{
+    width: 50%;
+    float: right;
+}
+.long{
+    width: 300px;
+}
+.contact-form .btn{
+    padding: 0 20px;
+}
+
+/* footer section  */
+.foot-work{
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
